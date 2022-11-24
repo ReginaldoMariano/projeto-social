@@ -7,8 +7,8 @@
 }
 
 html, body {
-    height: 100vh;
-    width: 100vw;
+    height: 110vh;
+    width: 98vw;
     background-color: black;
 }
 
@@ -21,7 +21,6 @@ body {
 main {
     position: relative;
     height: 100vh;
-   
 }
 
 section#telefone {
@@ -38,11 +37,18 @@ section#telefone {
 
 }
 
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 470px;
+    width: 269px; 
+}
+
 #redes-sociais {
     display: grid;
     justify-content: right;
-    list-style: none;
-    justify-content: right; 
 }
 
 .img {
